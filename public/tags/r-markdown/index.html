@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>R Markdown</title>
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/lukasfeuer.de/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/lukasfeuer.de/css/layouts/main.css"/>
+<link rel="stylesheet" href="/lukasfeuer.de/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/lukasfeuer.de/css/plyr.css"/>
+
+
+<link rel="stylesheet" href="/lukasfeuer.de/google-fonts/Mulish/mulish.css"/>
+
+
+<link rel="stylesheet" href="/lukasfeuer.de/fontawesome/css/all.min.css"/>
+
+
+
+<link rel="stylesheet" href="/lukasfeuer.de/css/colortheme/colortheme.css"/>
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+  
+
+  <link rel="icon" type="image/png" href="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" />
+
+<meta property="og:title" content="R Markdown" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="lukasfeuer.de/tags/r-markdown/" />
+
+
+
+    
+    
+    <link rel="stylesheet" href="/lukasfeuer.de/css/layouts/list.css">
+    <link rel="stylesheet" href="/lukasfeuer.de/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/lukasfeuer.de/css/style.css"/>
+
+
+
+    
+
+
+
+
+</head>
+
+  <body data-spy="scroll" data-target="#TableOfContents" data-offset="80">
+    <div class="container-fluid bg-dimmed wrapper">
+      
+      
+    
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+  
+  
+    
+  
+  
+
+
+
+  
+  
+    
+  
+  
+
+
+<nav class="navbar navbar-expand-xl top-navbar final-navbar shadow">
+  <div class="container">
+      <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="/lukasfeuer.de">
+      
+        <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" alt="Logo">
+      Lukas Feuer</a>
+    <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse lang-selector" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+      
+      
+        <li class="nav-item dropdown">
+
+<div id="theme-initialization" style="display: none;"
+  default-theme="system"></div>
+<a class="nav-link dropdown-toggle"  href="#" id="themeSelector" role="button"
+  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  <img id="navbar-theme-icon-svg" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+</a>
+<div class="dropdown-menu dropdown-menu-icons-only" aria-labelledby="themeSelector">
+  <a class="dropdown-item nav-link" href="#" onclick="enableLightTheme()">
+    <img class="menu-icon-center" src="/icons/sun-svgrepo-com.svg" width=20 alt="Light Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="enableDarkTheme()">
+    <img class="menu-icon-center" src="/icons/moon-svgrepo-com.svg" width=20 alt="Dark Theme">
+  </a>
+  <a class="dropdown-item nav-link" href="#" onclick="useSystemTheme()">
+    <img class="menu-icon-center" src="/icons/computer-svgrepo-com.svg" width=20 alt="System Theme">
+  </a>
+</div>
+</li>
+      
+      </ul>
+    </div>
+  </div>
+  
+  
+    <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+  
+  
+    <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+  
+</nav>
+
+
+
+      
+      
+  
+  
+
+  <section class="sidebar-section" id="sidebar-section">
+    <div class="sidebar-holder">
+      <div class="sidebar" id="sidebar">
+        <form class="mx-auto" method="get" action="/lukasfeuer.de/search">
+          <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
+        </form>
+        <div class="sidebar-tree">
+          <ul class="tree" id="tree">
+            <li id="list-heading"><a href="/lukasfeuer.de/tags" data-filter="all">Tags</a></li>
+            <div class="subtree taxonomy-terms">
+              
+              
+
+
+
+  
+  
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="lukasfeuer.de/tags/flexdashboard/" data-taxonomy-term="flexdashboard"><span class="taxonomy-label">flexdashboard</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="lukasfeuer.de/tags/meta-programming/" data-taxonomy-term="meta-programming"><span class="taxonomy-label">meta programming</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="lukasfeuer.de/tags/plot/" data-taxonomy-term="plot"><span class="taxonomy-label">plot</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="lukasfeuer.de/tags/r/" data-taxonomy-term="r"><span class="taxonomy-label">R</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term active" href="lukasfeuer.de/tags/r-markdown/" data-taxonomy-term="r-markdown"><span class="taxonomy-label">R Markdown</span></a></li>
+        
+          
+            
+          
+          <li><a class="taxonomy-term " href="lukasfeuer.de/tags/regression/" data-taxonomy-term="regression"><span class="taxonomy-label">regression</span></a></li>
+        
+  
+
+
+            </div>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+      
+      
+<section class="content-section" id="content-section">
+  <div class="content container-fluid" id="content">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
+      
+      
+      
+        
+          <div class="post-card">
+  <a href="/lukasfeuer.de/posts/2020-12-01-r-rmarkdown/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/lukasfeuer.de/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Hello R Markdown</h5>
+        <p class="card-text post-summary">R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">December 1, 2020</span>
+        <a
+        href="/lukasfeuer.de/posts/2020-12-01-r-rmarkdown/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
+        
+      
+    </div>
+    <div class="paginator">
+      
+    </div>
+  </div>
+</section>
+
+
+      
+       
+    </div>
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+  
+  
+    
+  
+
+  
+  
+
+  
+  
+
+
+  
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+    
+  
+  
+
+  
+  
+  
+
+  <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
+    <div class="container pt-5">
+      <div class="row text-left">
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Navigation</h5>
+          
+          <ul>
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#about">About</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#skills">Skills</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#experiences">Experiences</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#education">Education</a>
+                </li>
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#projects">Projects</a>
+                </li>
+              
+              
+              
+                
+                
+                  
+                
+                <li class="nav-item">
+                  <a class="smooth-scroll" href="lukasfeuer.de/#recent-posts">Recent Posts</a>
+                </li>
+              
+              
+              
+            
+              
+            
+          </ul>
+          
+        </div>
+        
+        
+        <div class="col-md-4 col-sm-12">
+          <h5>Contact me:</h5>
+          <ul>
+            
+              
+                <li><a href=mailto:feuerlukas@web.de target="_blank" rel="noopener">
+                  <span><i class="fas fa-envelope"></i></span> <span>feuerlukas@web.de</span>
+                </a></li>
+              
+            
+              
+                <li><a href=https://github.com/lukasfeuer target="_blank" rel="noopener">
+                  <span><i class="fab fa-github"></i></span> <span>lukasfeuer</span>
+                </a></li>
+              
+            
+          </ul>
+        </div>
+        
+        
+        
+          
+          <div class="col-md-4 col-sm-12">
+            <p>Stay up to date with email notification</p>
+            
+              <form method='post' action='https://blogtrottr.com'>
+              <div class="form-group">
+              <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
+              <input type='hidden' name='btr_url' value='lukasfeuer.de/index.xml' />
+              <input type='hidden' name='schedule_type' value='1' />
+              <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
+              <button type="submit" class="btn btn-info"> Submit </button>
+              </div>
+              </form>
+            
+          </div>
+        
+      </div>
+    </div>
+    
+    
+    <hr />
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-4">
+          <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
+            <img src="/lukasfeuer.de/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            Toha
+          </a>
+        </div>
+        <div class="col-md-4 text-center">© 2022 Copyright.</div>
+        <div class="col-md-4 text-right">
+          <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
+          <img
+            src="/lukasfeuer.de/images/hugo-logo.svg"
+            alt="Hugo Logo"
+            height="18"
+          />
+          </a>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+
+
+    <script type="text/javascript" src="/lukasfeuer.de/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/lukasfeuer.de/js/popper.min.js"></script>
+<script type="text/javascript" src="/lukasfeuer.de/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/lukasfeuer.de/js/navbar.js"></script>
+<script type="text/javascript" src="/lukasfeuer.de/js/plyr.js"></script>
+<script type="text/javascript" src="/lukasfeuer.de/js/main.js"></script>
+
+
+
+<script type="text/javascript" src="/lukasfeuer.de/js/darkreader.js"></script>
+<script type="text/javascript" src="/lukasfeuer.de/js/darkmode-darkreader.js"></script>
+
+
+
+    
+    
+    <script src="/lukasfeuer.de/js/list.js"></script>
+
+
+    
+</body>
+</html>

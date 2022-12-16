@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R Notes on Lukas Feuer</title>
+    <link>lukasfeuer.de/notes/r/</link>
+    <description>Recent content in R Notes on Lukas Feuer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="lukasfeuer.de/notes/r/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Types</title>
+      <link>lukasfeuer.de/notes/r/01_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>lukasfeuer.de/notes/r/01_setup/</guid>
+      <description>Hello, World! Test
+print(&amp;#34;Hello, World!&amp;#34;) print(&amp;#34;Hello, World!&amp;#34;) TRUE true True T     Numbers Typical types
+num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
+var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float     Arrays // var numbers [5]int numbers := [.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

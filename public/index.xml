@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lukas Feuer</title>
+    <link>lukasfeuer.de/</link>
+    <description>Recent content on Lukas Feuer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="lukasfeuer.de/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>Making a simple adaptive Flexdashboard</title>
+      <link>lukasfeuer.de/posts/2022-01-07-blood-values/</link>
+      <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>lukasfeuer.de/posts/2022-01-07-blood-values/</guid>
+      <description>This short post documents how some time ago I made a flexdashboard to easily monitor blood examination results over time and make them more comparable for the patient; for example as part of a patient empowerment initiative (1Reichardt &amp;amp; Gastmeier, 2013). While the dashboard itself is nothing special I think it might be interesting to other data scientists how I realized the tabset feature, which automatically adjusts the number of tab-panels and plots to the number of variables in the data.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>lukasfeuer.de/posts/2020-12-01-r-rmarkdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      
+      <guid>lukasfeuer.de/posts/2020-12-01-r-rmarkdown/</guid>
+      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42.</description>
+    </item>
+    
+    <item>
+      <title>Resultados de Búsqueda</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Resultados de Búsqueda</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>Este archivo existe únicamente para responder a la URL /search con la plantilla de diseño search relacionada.
+No se muestra ningún contenido aquí, todo el contenido se basa en la plantilla layouts/page/search.html
+Establecer una prioridad muy baja en el mapa del sitio le dirá a los motores de búsqueda que éste no es un contenido importante.
+Esta implementación utiliza Fusejs, jquery y mark.js
+Configuración inicial La búsqueda depende del tipo de contenido de salida adicional de JSON en config.</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>অনুসন্ধানের ফলাফল</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>অনুসন্ধানের ফলাফল</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Tue, 08 Jun 2010 08:06:25 +0600</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    <item>
+      <title>Types</title>
+      <link>lukasfeuer.de/notes/r/01_setup/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>lukasfeuer.de/notes/r/01_setup/</guid>
+      <description>Hello, World! Test
+print(&amp;#34;Hello, World!&amp;#34;) print(&amp;#34;Hello, World!&amp;#34;) TRUE true True T     Numbers Typical types
+num := 3 // int num := 3. // float64 num := 3 + 4i // complex128 num := byte(&amp;#39;a&amp;#39;) // byte (alias for uint8) Other Types
+var u uint = 7 // uint (unsigned) var p float32 = 22.7 // 32-bit float     Arrays // var numbers [5]int numbers := [.</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>lukasfeuer.de/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>lukasfeuer.de/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml ``` [outputs] home = [&amp;ldquo;HTML&amp;rdquo;, &amp;ldquo;JSON&amp;rdquo;] ```</description>
+    </item>
+    
+    
+  </channel>
+</rss>
