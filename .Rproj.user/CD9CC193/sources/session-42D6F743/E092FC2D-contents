@@ -26,9 +26,9 @@ markup:
 # client-side JavaScript search
 outputs:
   home:
-  - HTML
-  - RSS
-  - JSON
+    - HTML
+    - RSS
+    - JSON
 
 
 # Enable global emoji support
