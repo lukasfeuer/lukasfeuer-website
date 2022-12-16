@@ -3,7 +3,7 @@
     "path": "~/dsp/lukasfeuer-website/config.yaml",
     "project_path": "config.yaml",
     "type": "yaml",
-    "hash": "2441879090",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1671189647900.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "1,41",
+        "cursorPosition": "2,19",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1671219213,
+    "lastKnownWriteTime": 1671219610,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1671219213107,
+    "last_content_update": 1671219610635,
     "read_only": false,
     "read_only_alternatives": []
 }
