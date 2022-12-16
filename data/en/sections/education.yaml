@@ -1,0 +1,47 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: M.Sc. in Psychology
+  icon: fa-graduation-cap
+  timeframe: 2018-2021
+  institution:
+    name: University of Hildesheim
+    url: "http://uni-hildesheim.de"
+  grade:
+    scale: Grade
+    achieved: 1.3
+    outOf: 1-6
+- name: B.Sc. in Psychology
+  icon: fa-graduation-cap
+  timeframe: 2016-2018
+  institution:
+    name: MSH Medical School Hamburg
+    url: "http://www.medicalschool-hamburg.de"
+  grade: #(optional)
+    scale: Grade
+    achieved: 1.1
+    outOf: 1-6
+- name: B.Sc. Applied Psychology (Transfer to MSH Medical School in the second year of study)
+  icon: fa-university
+  timeframe: 2014-2016
+  institution:
+    name: Fresenius - Univerity of Applied Sciences
+    url: "https://www.hs-fresenius.com"
+- name: High-School (Abitur)
+  icon: fa-school
+  timeframe: 2011-2014
+  institution:
+    name: Hölty Gynmasium Wunstorf
+  grade: #(optional)
+    scale: Grade
+    achieved: 1.7
+    outOf: 1-6

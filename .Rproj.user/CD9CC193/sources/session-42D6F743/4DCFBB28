@@ -1,0 +1,26 @@
+{
+    "id": "4DCFBB28",
+    "path": "~/dsp/lukasfeuer-website/data/en/sections/about.yaml",
+    "project_path": "data/en/sections/about.yaml",
+    "type": "yaml",
+    "hash": "2676667548",
+    "contents": "",
+    "dirty": false,
+    "created": 1671192933040.0,
+    "source_on_save": false,
+    "relative_order": 10,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "36,0",
+        "scrollLine": "19"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1671209369,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1671209369277,
+    "read_only": false,
+    "read_only_alternatives": []
+}

@@ -1,0 +1,25 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  hideTitle: false
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: R Data Analytics
+  logo: "/images/Rlogo.png"
+  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+  url: "https://www.r-project.org"
+
+- name: Julia Programming
+  logo: "/images/Julialogo.svg"
+  summary: "https://julialang.org/assets/infra/logo.svg"
+  url: "https://julialang.org"
+
+- name: Git
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"

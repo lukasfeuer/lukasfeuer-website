@@ -1,0 +1,21 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Best final grade in the bachelor's degree in Psychology
+  image: /images/sections/achievements/presenter.jpg
+  summary: Finished top of my class in my final bachelor's semester.
+- title: Graduation 2018 - Bachelor of Science
+  image: /images/sections/achievements/sport.jpg
+  summary: Received Bachelor of Science (B.Sc.) in Psychology from the MSH Medical School Hamburg.
+- title: Graduation 2021 - Master of Science
+  image: /images/sections/achievements/graduation-cap.jpg
+  summary: Received Master of Science (M.Sc.) in Psychology from the Univerity of Hildesheim.

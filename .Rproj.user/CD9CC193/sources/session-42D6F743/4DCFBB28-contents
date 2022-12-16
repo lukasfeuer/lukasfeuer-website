@@ -1,0 +1,45 @@
+
+
+section:
+  name: About # Title of section (default: "")
+  id: about # url id/slug of section *Required*
+  enable: true # Boolean to determine if this section is enabled (default: false)
+  weight: 1 # Order to display section in (default: alphabetical followed by weight)
+  showOnNavbar: true # Boolean to determine if a link should be shown for this section on the navbar
+  template: sections/about.html # allows you to point to a specific template.
+
+
+# your designation
+designation: Data Analyst
+# your company information
+company:
+  name: Vergölst
+  url: "https://www.vergoelst.de"
+
+# a summary about you
+summary: 'Hi, my name is Lukas Feuer. I am a CRM-Manager and data analyst for Vergölst based in Hannover (Germany). I studied Psychology (M.Sc.) in Hamburg and Hildesheim with a focus on statistics and research. I primarily work with [R](http://r-project.org) but I am also very passionate about learning the [Julia](http://julialang.org) programming language. To communicate my results I create Power BI or Quarto/RMarkdown reports that help our stakeholders in their decision making.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "feuerlukas@web.de"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/lukasfeuer"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/lukas-feuer-1abb6b19b"
+
+
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/01_Lebenslauf_.pdf"
+
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
