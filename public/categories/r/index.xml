@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Lukas Feuer</title>
-    <link>lukasfeuer.de/categories/r/</link>
+    <link>rainbow-kheer-425228.netlify.app/categories/r/</link>
     <description>Recent content in R on Lukas Feuer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="lukasfeuer.de/categories/r/index.xml" rel="self" type="application/rss+xml" /><item>
+    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="rainbow-kheer-425228.netlify.app/categories/r/index.xml" rel="self" type="application/rss+xml" /><item>
       <title>Making a simple adaptive Flexdashboard</title>
-      <link>lukasfeuer.de/posts/2022-01-07-blood-values/</link>
+      <link>rainbow-kheer-425228.netlify.app/posts/2022-01-07-blood-values/</link>
       <pubDate>Fri, 07 Jan 2022 00:00:00 +0000</pubDate>
       
-      <guid>lukasfeuer.de/posts/2022-01-07-blood-values/</guid>
+      <guid>rainbow-kheer-425228.netlify.app/posts/2022-01-07-blood-values/</guid>
       <description>This short post documents how some time ago I made a flexdashboard to easily monitor blood examination results over time and make them more comparable for the patient; for example as part of a patient empowerment initiative (1Reichardt &amp;amp; Gastmeier, 2013). While the dashboard itself is nothing special I think it might be interesting to other data scientists how I realized the tabset feature, which automatically adjusts the number of tab-panels and plots to the number of variables in the data.</description>
     </item>
     
     <item>
       <title>Hello R Markdown</title>
-      <link>lukasfeuer.de/posts/2020-12-01-r-rmarkdown/</link>
+      <link>rainbow-kheer-425228.netlify.app/posts/2020-12-01-r-rmarkdown/</link>
       <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
       
-      <guid>lukasfeuer.de/posts/2020-12-01-r-rmarkdown/</guid>
+      <guid>rainbow-kheer-425228.netlify.app/posts/2020-12-01-r-rmarkdown/</guid>
       <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
 You can embed an R code chunk like this:
 summary(cars) ## speed dist  ## Min. : 4.0 Min. : 2.00  ## 1st Qu.:12.0 1st Qu.: 26.00  ## Median :15.0 Median : 36.00  ## Mean :15.4 Mean : 42.</description>

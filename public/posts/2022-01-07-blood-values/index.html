@@ -7,20 +7,20 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
 
-<link rel="stylesheet" href="/lukasfeuer.de/css/bootstrap.min.css"/>
-<link rel="stylesheet" href="/lukasfeuer.de/css/layouts/main.css"/>
-<link rel="stylesheet" href="/lukasfeuer.de/css/navigators/navbar.css"/>
-<link rel="stylesheet" href="/lukasfeuer.de/css/plyr.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/layouts/main.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/navigators/navbar.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/plyr.css"/>
 
 
-<link rel="stylesheet" href="/lukasfeuer.de/google-fonts/Mulish/mulish.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/google-fonts/Mulish/mulish.css"/>
 
 
-<link rel="stylesheet" href="/lukasfeuer.de/fontawesome/css/all.min.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/fontawesome/css/all.min.css"/>
 
 
 
-<link rel="stylesheet" href="/lukasfeuer.de/css/colortheme/colortheme.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/colortheme/colortheme.css"/>
 
 
 
@@ -35,12 +35,12 @@
   
   
 
-  <link rel="icon" type="image/png" href="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" />
+  <link rel="icon" type="image/png" href="/rainbow-kheer-425228.netlify.app/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" />
 
 <meta property="og:title" content="Making a simple adaptive Flexdashboard" />
 <meta property="og:description" content="This short post documents how some time ago I made a flexdashboard to easily monitor blood examination results over time and make them more comparable for the patient; for example as part of a patient empowerment initiative (1Reichardt &amp; Gastmeier, 2013). While the dashboard itself is nothing special I think it might be interesting to other data scientists how I realized the tabset feature, which automatically adjusts the number of tab-panels and plots to the number of variables in the data." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="lukasfeuer.de/posts/2022-01-07-blood-values/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="rainbow-kheer-425228.netlify.app/posts/2022-01-07-blood-values/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-01-07T00:00:00+00:00" />
 <meta property="article:modified_time" content="2022-01-07T00:00:00+00:00" />
 
@@ -53,10 +53,10 @@
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
 />
-<link rel="stylesheet" href="/lukasfeuer.de/css/layouts/single.css"/>
-<link rel="stylesheet" href="/lukasfeuer.de/css/navigators/sidebar.css">
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/layouts/single.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/navigators/sidebar.css">
 
-<link rel="stylesheet" href="/lukasfeuer.de/css/style.css"/>
+<link rel="stylesheet" href="/rainbow-kheer-425228.netlify.app/css/style.css"/>
 
 
 
@@ -105,9 +105,9 @@
       <button class="navbar-toggler navbar-light" id="sidebar-toggler" type="button" onclick="toggleSidebar()">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="/lukasfeuer.de">
+    <a class="navbar-brand" href="/rainbow-kheer-425228.netlify.app">
       
-        <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" alt="Logo">
+        <img src="/rainbow-kheer-425228.netlify.app/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" alt="Logo">
       Lukas Feuer</a>
     <button class="navbar-toggler navbar-light" id="toc-toggler" type="button" onclick="toggleTOC()">
       <span class="navbar-toggler-icon"></span>
@@ -143,10 +143,10 @@
   </div>
   
   
-    <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
+    <img src="/rainbow-kheer-425228.netlify.app/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="main-logo" alt="Logo">
   
   
-    <img src="/lukasfeuer.de/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
+    <img src="/rainbow-kheer-425228.netlify.app/images/logo_w_hu3a99a95248ed0465b53371a34ce56d5d_20265_42x0_resize_box_3.png" class="d-none" id="inverted-logo" alt="Inverted Logo">
   
 </nav>
 
@@ -157,12 +157,12 @@
   <section class="sidebar-section" id="sidebar-section">
     <div class="sidebar-holder">
       <div class="sidebar" id="sidebar">
-        <form class="mx-auto" method="get" action="/lukasfeuer.de/search">
+        <form class="mx-auto" method="get" action="/rainbow-kheer-425228.netlify.app/search">
           <input type="text" name="keyword" value="" placeholder="Search" data-search="" id="search-box" />
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/lukasfeuer.de/posts/" data-filter="all">Posts</a></li>
+            <li id="list-heading"><a href="/rainbow-kheer-425228.netlify.app/posts/" data-filter="all">Posts</a></li>
             <div class="subtree">
                 
 
@@ -180,13 +180,13 @@
   <div class="content">
     <div class="container p-0 read-area">
       
-      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/lukasfeuer.de/posts/2022-01-07-blood-values/hero.png);'>
+      <div class="hero-area col-sm-12" id="hero-area" style='background-image: url(/rainbow-kheer-425228.netlify.app/posts/2022-01-07-blood-values/hero.png);'>
       </div>
 
       
       <div class="page-content">
         <div class="author-profile ml-auto align-self-lg-center">
-          <img class="rounded-circle" src='/lukasfeuer.de/images/lukas_avatar_hub3b5a02700a03d1105ebf437d90b1927_133668_120x120_fit_box_3.png' alt="Author Image">
+          <img class="rounded-circle" src='/rainbow-kheer-425228.netlify.app/images/lukas_avatar_hub3b5a02700a03d1105ebf437d90b1927_133668_120x120_fit_box_3.png' alt="Author Image">
           <h5 class="author-name"></h5>
           <p>Friday, January 7, 2022</p>
         </div>
@@ -259,30 +259,30 @@ p {
             
             
             
-                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=lukasfeuer.de%2fposts%2f2022-01-07-blood-values%2f&title=Making%20a%20simple%20adaptive%20Flexdashboard" target="_blank">
+                <a  class="btn btn-sm reddit-btn" href="https://reddit.com/submit?url=rainbow-kheer-425228.netlify.app%2fposts%2f2022-01-07-blood-values%2f&title=Making%20a%20simple%20adaptive%20Flexdashboard" target="_blank">
                   <i class="fab fa-reddit"></i>
                 </a>
             
             
             
             
-                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=lukasfeuer.de%2fposts%2f2022-01-07-blood-values%2f&title=Making%20a%20simple%20adaptive%20Flexdashboard" target="_blank">
+                <a class="btn btn-sm linkedin-btn" href="https://www.linkedin.com/shareArticle?url=rainbow-kheer-425228.netlify.app%2fposts%2f2022-01-07-blood-values%2f&title=Making%20a%20simple%20adaptive%20Flexdashboard" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
             
             
              
-                <a class="btn btn-sm mastodon-btn" href="https://mastodon.social/share?text=Making%20a%20simple%20adaptive%20Flexdashboard - lukasfeuer.de%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
+                <a class="btn btn-sm mastodon-btn" href="https://mastodon.social/share?text=Making%20a%20simple%20adaptive%20Flexdashboard - rainbow-kheer-425228.netlify.app%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
                   <i class="fab fa-mastodon"></i>
                 </a>
             
             
-                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Making%20a%20simple%20adaptive%20Flexdashboard lukasfeuer.de%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
+                 <a class="btn btn-sm whatsapp-btn" href="https://api.whatsapp.com/send?text=Making%20a%20simple%20adaptive%20Flexdashboard rainbow-kheer-425228.netlify.app%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
                   <i class="fab fa-whatsapp"></i>
                 </a>
             
             
-                <a class="btn btn-sm email-btn" href="mailto:?subject=Making%20a%20simple%20adaptive%20Flexdashboard&body=lukasfeuer.de%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
+                <a class="btn btn-sm email-btn" href="mailto:?subject=Making%20a%20simple%20adaptive%20Flexdashboard&body=rainbow-kheer-425228.netlify.app%2fposts%2f2022-01-07-blood-values%2f" target="_blank">
                   <i class="fas fa-envelope-open-text"></i>
                 </a>
             
@@ -414,7 +414,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#about">About</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#about">About</a>
                 </li>
               
               
@@ -423,7 +423,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#skills">Skills</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#skills">Skills</a>
                 </li>
               
               
@@ -432,7 +432,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#experiences">Experiences</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#experiences">Experiences</a>
                 </li>
               
               
@@ -441,7 +441,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#education">Education</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#education">Education</a>
                 </li>
               
               
@@ -450,7 +450,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#projects">Projects</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#projects">Projects</a>
                 </li>
               
               
@@ -460,7 +460,7 @@ p {
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="lukasfeuer.de/#recent-posts">Recent Posts</a>
+                  <a class="smooth-scroll" href="rainbow-kheer-425228.netlify.app/#recent-posts">Recent Posts</a>
                 </li>
               
               
@@ -501,7 +501,7 @@ p {
               <form method='post' action='https://blogtrottr.com'>
               <div class="form-group">
               <input type='email' class="form-control" name='btr_email' placeholder="Enter email"/><br />
-              <input type='hidden' name='btr_url' value='lukasfeuer.de/index.xml' />
+              <input type='hidden' name='btr_url' value='rainbow-kheer-425228.netlify.app/index.xml' />
               <input type='hidden' name='schedule_type' value='1' />
               <small id="emailHelp" class="form-text text-muted">By entering your email address, you agree to receive the newsletter of this website.</small>
               <button type="submit" class="btn btn-info"> Submit </button>
@@ -519,7 +519,7 @@ p {
       <div class="row text-left">
         <div class="col-md-4">
           <a id="theme" href="https://github.com/hugo-toha/toha" target="_blank" rel="noopener">
-            <img src="/lukasfeuer.de/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
+            <img src="/rainbow-kheer-425228.netlify.app/images/theme-logo_hu8376fd15465fef26ffe66b6bcf0ca686_13669_32x0_resize_box_3.png" alt="Toha Theme Logo">
             Toha
           </a>
         </div>
@@ -527,7 +527,7 @@ p {
         <div class="col-md-4 text-right">
           <a id="hugo" href="https://gohugo.io/" target="_blank" rel="noopener">Powered by
           <img
-            src="/lukasfeuer.de/images/hugo-logo.svg"
+            src="/rainbow-kheer-425228.netlify.app/images/hugo-logo.svg"
             alt="Hugo Logo"
             height="18"
           />
@@ -539,25 +539,25 @@ p {
   </footer>
 
 
-    <script type="text/javascript" src="/lukasfeuer.de/js/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="/lukasfeuer.de/js/popper.min.js"></script>
-<script type="text/javascript" src="/lukasfeuer.de/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/popper.min.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/bootstrap.min.js"></script>
 
-<script type="text/javascript" src="/lukasfeuer.de/js/navbar.js"></script>
-<script type="text/javascript" src="/lukasfeuer.de/js/plyr.js"></script>
-<script type="text/javascript" src="/lukasfeuer.de/js/main.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/navbar.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/plyr.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/main.js"></script>
 
 
 
-<script type="text/javascript" src="/lukasfeuer.de/js/darkreader.js"></script>
-<script type="text/javascript" src="/lukasfeuer.de/js/darkmode-darkreader.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/darkreader.js"></script>
+<script type="text/javascript" src="/rainbow-kheer-425228.netlify.app/js/darkmode-darkreader.js"></script>
 
 
 
     
     
 <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-<script src="/lukasfeuer.de/js/single.js"></script>
+<script src="/rainbow-kheer-425228.netlify.app/js/single.js"></script>
 <script>
   hljs.initHighlightingOnLoad();
 </script>

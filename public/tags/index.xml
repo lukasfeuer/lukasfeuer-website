@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Lukas Feuer</title>
-    <link>lukasfeuer.de/tags/</link>
+    <link>rainbow-kheer-425228.netlify.app/tags/</link>
     <description>Recent content in Tags on Lukas Feuer</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="lukasfeuer.de/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="rainbow-kheer-425228.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
